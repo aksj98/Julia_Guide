@@ -1,5 +1,5 @@
 # Julia_Guide
-Beginner guide for Julia code
+Beginner guide for Julia code for developers
 
 The repository gives overviews of what each folder does and what each subfolder inside each folder does
 ## CLI
