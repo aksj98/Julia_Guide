@@ -28,3 +28,23 @@ CODE_OF_CONDUCT.md: This file contains the code of conduct for the Julia communi
 
 CONTRIBUTING.md: This file contains guidelines for contributing to the Julia repository, including information on how to submit issues and pull requests, how to write good commit messages, and more.
 
+## contrib
+The contrib folder in the Julia repository is used to store code for optional packages that are not part of the Julia standard library. These packages are developed and maintained by the Julia community, and they provide additional functionality that is not included in the base distribution of Julia.
+
+The contrib folder is organized into subfolders, each of which contains the source code for a specific package. The packages in the contrib folder can be installed by users using the Julia package manager.
+
+It's worth noting that not all optional packages for Julia are stored in the contrib folder. Some packages are hosted on external websites or version control systems, and they may be installed using the Julia package manager by specifying the URL or repository location.
+
+## deps
+The deps folder in the Julia repository is used to store source code and build scripts for external dependencies that are required by Julia. These dependencies are typically libraries written in other programming languages (such as C or Fortran) that provide functionality that is used by Julia.
+
+The deps folder is organized into subfolders, each of which contains the source code and build scripts for a specific dependency. The build scripts in the deps folder are used to build the dependencies from source when Julia is built or installed.
+
+It's worth noting that the deps folder is not used to store the compiled binary versions of the dependencies. Instead, the compiled binaries are stored in the usr folder, which is located at the root of the Julia repository. The usr folder is used to store compiled binaries and other resources that are included in the Julia distribution.
+
+## doc
+The doc folder in the Julia repository is used to store documentation for the Julia programming language and its standard library. This documentation includes user guides, API reference documentation, and other resources that are intended to help users learn how to use Julia and its various features.
+
+The doc folder is organized into subfolders, each of which contains documentation for a specific area of functionality. The documentation is written in a simple markup language called Markdown, which can be easily converted to HTML or other formats for display on the web or in other applications.
+
+The Julia documentation is built using the Documenter package, which is a tool for generating documentation from source code and other documentation sources. The Documenter configuration files and templates are also stored in the doc folder.
