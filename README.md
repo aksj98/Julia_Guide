@@ -48,3 +48,59 @@ The doc folder in the Julia repository is used to store documentation for the Ju
 The doc folder is organized into subfolders, each of which contains documentation for a specific area of functionality. The documentation is written in a simple markup language called Markdown, which can be easily converted to HTML or other formats for display on the web or in other applications.
 
 The Julia documentation is built using the Documenter package, which is a tool for generating documentation from source code and other documentation sources. The Documenter configuration files and templates are also stored in the doc folder.
+
+## etc
+The etc folder in the Julia repository is used to store miscellaneous configuration files and resources that are used by Julia or its build process. The contents of the etc folder can vary, but some of the files and directories that you might find in this folder include:
+
+LICENSE.md: This file contains the license for Julia, which specifies the terms under which the software can be used and distributed.
+
+Make.user: This file is used to specify additional build options or overrides for the Julia build process. Users can create this file in the Julia root directory to specify custom build options without modifying the main Julia build scripts.
+
+gitattributes: This file is used to specify Git-specific attributes for files in the Julia repository.
+
+gitignore: This file is used to specify files or patterns that should be ignored by Git when tracking changes to the repository.
+
+CITATION.md: This file contains information on how to cite Julia in academic publications.
+
+Overall, the etc folder is a catch-all location for miscellaneous configuration files and resources that are used by Julia or its build process.
+
+## src
+The src folder in the Julia repository is used to store the source code for the Julia programming language. This source code includes the implementation of the Julia language itself, as well as the standard library and core packages that are distributed with Julia.
+
+The src folder is organized into subfolders, each of which contains the source code for a specific component of Julia. Some of the subfolders that you might find in the src folder include:
+
+base: This folder contains the source code for the Julia standard library, which provides a wide variety of functions and data types that are available by default in Julia.
+
+compiler: This folder contains the source code for the Julia compiler, which is responsible for turning Julia source code into machine code that can be executed by the computer.
+
+stdlib: This folder contains the source code for the core packages that are distributed with Julia, including packages for basic operations such as arithmetic and data manipulation.
+
+Overall, the src folder is an important part of the Julia repository, as it contains the source code for the Julia programming language and its core components.
+
+## stdlib
+The stdlib folder in the Julia repository is used to store the source code for the core packages that are distributed with Julia. These packages provide a wide variety of functionality that is available by default in Julia, including support for basic operations such as arithmetic, data manipulation, and input/output.
+
+The stdlib folder is organized into subfolders, each of which contains the source code for a specific package. Some of the packages that you might find in the stdlib folder include:
+
+LinearAlgebra: This package provides functions for linear algebra operations such as matrix multiplication, linear system solving, and singular value decomposition.
+
+Random: This package provides functions for generating random numbers and data using a variety of probability distributions.
+
+Statistics: This package provides functions for statistical analysis, including functions for calculating basic statistics, fitting probability distributions, and performing hypothesis tests.
+
+Dates: This package provides functions for working with dates and times, including functions for formatting and parsing date strings and for performing calculations with dates.
+
+## test
+The test folder in the Julia repository is used to store test cases and test utilities for the Julia programming language and its standard library. Test cases are small programs that are written to verify that a piece of code is working correctly. They are an important part of the development process, as they help to ensure that the code is reliable and free of bugs.
+
+The test folder is organized into subfolders, each of which contains test cases and test utilities for a specific area of functionality. Some of the subfolders that you might find in the test folder include:
+
+base: This folder contains test cases for the functions and data types in the Julia standard library.
+
+compiler: This folder contains test cases for the Julia compiler.
+
+stdlib: This folder contains test cases for the core packages that are distributed with Julia.
+
+The test cases in the test folder are written using the Test module, which is a part of the Julia standard library. The Test module provides functions for writing and running test cases, as well as functions for reporting the results of the tests.
+
+
